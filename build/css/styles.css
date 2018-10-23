@@ -1,0 +1,191 @@
+html {
+  height: 100%;
+}
+html body {
+  background-image: url("../assets/background.png");
+  height: 100%;
+  min-height: 100%;
+}
+html body .login {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+html body .login__container {
+  display: flex;
+}
+html body .login__container--box {
+  background: #fff;
+  position: relative;
+  width: 390px;
+  margin: 0 auto;
+  border: 1px solid #e2e1e1;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 0px 1px 1px #e2e1e1;
+  -moz-box-shadow: 0px 0px 1px 1px #e2e1e1;
+  box-shadow: 0px 0px 1px 1px #e2e1e1;
+}
+html body .login__container--box:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 20px 0 0;
+  border-color: #f3f3f3 transparent transparent transparent;
+  -webkit-box-shadow: 0px 0px 1px 1px #e2e1e1;
+  -moz-box-shadow: 0px 0px 1px 1px #e2e1e1;
+  box-shadow: 0px 0px 1px 1px #e2e1e1;
+}
+html body .login__container--box:before {
+  content: '';
+  width: 100%;
+  position: absolute;
+  bottom: -5px;
+  height: 3px;
+  background: #fff;
+  border-bottom: 1px solid #f3f3f3;
+  -webkit-box-shadow: 0px 0px 1px 1px #e2e1e1;
+  -moz-box-shadow: 0px 0px 1px 1px #e2e1e1;
+  box-shadow: 0px 0px 1px 1px #e2e1e1;
+  z-index: -1;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+html body .login__container--box .latest-box:before {
+  content: '';
+  width: 100%;
+  position: absolute;
+  bottom: -10px;
+  height: 3px;
+  background: #fff;
+  border-bottom: 1px solid #f3f3f3;
+  -webkit-box-shadow: 0px 0px 1px 1px #e2e1e1;
+  -moz-box-shadow: 0px 0px 1px 1px #e2e1e1;
+  box-shadow: 0px 0px 1px 1px #e2e1e1;
+  z-index: -1;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+html body .login__container--box-title {
+  color: #787878;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 38px;
+  margin-bottom: 25px;
+}
+html body .login__container--box-alerts {
+  width: 700px;
+  margin-bottom: 51px;
+}
+html body .login__container--box-alerts-error {
+  display: none;
+  background: #ef7474;
+  color: #a93b3b;
+  border-radius: 4px;
+  padding: 15px 25px 12px 0;
+  font-size: 14px;
+  height: 47px;
+}
+html body .login__container--box-alerts-success {
+  display: none;
+  background: #61df9f;
+  color: #299a60;
+  border-radius: 4px;
+  padding: 15px 25px 12px 0;
+  font-size: 14px;
+  height: 47px;
+}
+html body .login__container--box-alerts .text-right {
+  float: right;
+}
+html body .login__container--box-alerts i {
+  padding-left: 25px;
+}
+html body .login__container--box-inputs {
+  padding-left: 92px;
+  padding-right: 85px;
+}
+html body .login__container--box-inputs .form-control {
+  background-color: #f7f6f6;
+}
+html body .login__container--box-inputs .email-field {
+  position: relative;
+  margin-bottom: 7px;
+}
+html body .login__container--box-inputs .email-field i {
+  top: 11px;
+  right: 20px;
+  position: absolute;
+  color: #e2e1e1;
+}
+html body .login__container--box-inputs .password-field {
+  position: relative;
+}
+html body .login__container--box-inputs .password-field i {
+  top: 11px;
+  right: 20px;
+  position: absolute;
+  color: #e2e1e1;
+}
+html body .login__container--box .form-check {
+  margin-left: 40px;
+  padding-top: 19px;
+}
+html body .login__container--box .form-check label {
+  color: #787878;
+  font-size: 12px;
+}
+html body .login__container--box .form-check input[type] {
+  margin-top: 7px;
+}
+html body .login__container--box .button-login button {
+  border-color: #000;
+  width: 114px;
+}
+html body .login__container--labels {
+  color: #787878;
+  font-weight: bold;
+  font-size: 11px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+html body .login__container--labels--underline {
+  margin-bottom: 16px;
+  margin-top: 23px;
+  text-decoration: underline;
+  font-size: 14px;
+}
+html body .login__container--infokeyrus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 49px;
+}
+html body .login__container--infokeyrus-icon {
+  background-color: #787878;
+  color: #f7f6f6;
+  width: 29px;
+  text-align: center;
+}
+html body .login__container--infokeyrus-icon span {
+  padding: 7px;
+  font-size: 18px;
+  font-weight: bold;
+}
+html body .login__container--infokeyrus-label {
+  color: #787878;
+  font-size: 12px;
+  text-align: center;
+  background-color: #fff;
+  width: 441px;
+  padding: 7px;
+  margin-left: 4px;
+}
+.show {
+  display: block !important;
+}

@@ -1,0 +1,72 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Keyrus login</title>
+
+    <link rel="stylesheet" href="build/css/styles.css">
+    <link rel="stylesheet" href="build/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
+    <link rel="shortcut icon" href="./build/assets/favicon_keyrus.png">
+</head>
+
+<body>
+    <div class="login">
+        <div class="login__container">
+            <form>
+                <div class="login__container--box-alerts">
+                    <span class="login__container--box-alerts-error"><i class="fas fa-times"></i><span class="text-right">Digite
+                            seu email e senha</span></span>
+                    <span class="login__container--box-alerts-success"><i class="fas fa-check"></i><span class="text-right">Você
+                            foi logado com sucesso</span></span>
+                </div>
+                <div class="login__container--box">
+                    <span class="latest-box"></span>
+                    <div class="login__container--box-title text-center">Entrar na minha conta</div>
+                    <div class="login__container--box-inputs">
+                        <div class="form-group">
+                            <div class="email-field">
+                                <input type="email" class="form-control email-input" placeholder="Email" />
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="password-field">
+                                <input type="password" class="form-control password-input" placeholder="Senha" />
+                                <i class="fas fa-lock"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center button-login">
+                        <button class="btn btn-primary text-center send-form" type="button">Entrar</button>
+                    </div>
+                    <div class="form-group form-check text-center">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Mantenha-me conectado</label>
+                    </div>
+                </div>
+                <div class="login__container--labels">
+                    <div class="login__container--labels--underline">
+                        Precisa de uma conta? <a href="#">Inscrever-se</a>
+                    </div>
+                    <div>
+                        Esqueceu sua senha? <a href="#">Clique aqui.</a>
+                    </div>
+                </div>
+                <div class="login__container--infokeyrus">
+                    <div class="login__container--infokeyrus-icon">
+                        <span>i</span>
+                    </div>
+                    <div class="login__container--infokeyrus-label">
+                        <span>Keyrus</span>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <script src="build/js/jquery-3.3.1.min.js"></script>
+        <script src="build/js/scripts.js"></script>
+</body>
+
+</html>
