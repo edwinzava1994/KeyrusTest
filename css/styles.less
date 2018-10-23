@@ -1,9 +1,18 @@
+@font-face {
+    font-family: maryad-bold;
+    src: url(../assets/MyriadPro-BlackSemiCn.otf);
+}
+@font-face {
+    font-family: maryad-normal;
+    src: url(../assets/MyriadProBoldSemiExtended.ttf);
+}
 html{
     height: 100%;
     body{
         background-image: url("../assets/background.png");
         height: 100%;
         min-height: 100%;
+        font-family: 'maryad-bold';
         .login{
             position: relative;
             height: 100%;
@@ -82,19 +91,21 @@ html{
                             display: none;
                             background:#ef7474;
                             color: #a93b3b;
-                            border-radius: 4px;
+                            border-radius: 8px;
                             padding: 15px 25px 12px 0;
                             font-size: 14px;
                             height: 47px;
+                            border:1px solid #a93b3b;
                         }
                         &-success{
                             display: none;
                             background:#61df9f;
                             color: #299a60;
-                            border-radius: 4px;
+                            border-radius: 8px;
                             padding: 15px 25px 12px 0;
                             font-size: 14px;
                             height: 47px;
+                            border: 1px solid #299a60;
                         }
                         .text-right{
                             float: right;
@@ -107,6 +118,7 @@ html{
                         padding-left: 92px;
                         padding-right: 85px;
                         .form-control{
+                            font-family: initial;
                             background-color: #f7f6f6;                            
                         }
                         .email{
@@ -139,6 +151,7 @@ html{
                         label{
                             color: #787878;
                             font-size: 12px;
+                            font-family: 'maryad-normal';
                         }
                         input[type]{
                             margin-top: 7px;
@@ -156,6 +169,7 @@ html{
                     font-weight: bold;
                     font-size: 11px;
                     margin-bottom: 40px;
+                    font-family: 'maryad-normal';
                     &--underline{
                         margin-bottom:16px;
                         margin-top:23px;
@@ -188,6 +202,7 @@ html{
                         width: 441px;
                         padding: 7px;
                         margin-left:4px;
+                        font-family: 'maryad-normal';
                     }
                 }
             }            
