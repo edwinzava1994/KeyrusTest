@@ -1,0 +1,27 @@
+{
+  "name": "keyrustest",
+  "version": "1.0.0",
+  "description": "Instrucciones para ejecutar el proyecto:",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-less": "^4.0.1",
+    "gulp-open": "^3.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edwinzava1994/KeyrusTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edwinzava1994/KeyrusTest/issues"
+  },
+  "homepage": "https://github.com/edwinzava1994/KeyrusTest#readme"
+}
